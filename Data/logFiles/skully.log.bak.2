@@ -1,0 +1,529 @@
+2024-10-11 10:04:06.551	1165830	Debug	Planning	THU Capacity Map loaded: {} [batch - 2]
+2024-10-11 10:04:06.557	1165830	Debug	Planning	THU PRU Capacity Map loaded: {} [batch - 2]
+2024-10-11 10:04:06.654	1165830	Debug	Conopt	Container optimization with 1 package lines and 1 container groups. [batch - 2]
+2024-10-11 10:04:07.027	1165830	Error	Planning	Unable to get compatible Packaged Item based on equipment group compartment: 1 SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR [batch - 2]
+2024-10-11 10:04:07.033	1165830	Error	Planning	Unable to get compatible Packaged Item based on equipment group compartment: 2 SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR [batch - 2]
+2024-10-11 10:04:07.039	1165830	Error	Planning	Unable to get compatible Packaged Item based on equipment group compartment: 3 SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR [batch - 2]
+2024-10-11 10:04:07.044	1165830	Error	Planning	Unable to get compatible Packaged Item based on equipment group compartment: 4 SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR [batch - 2]
+2024-10-11 10:04:07.050	1165830	Error	Planning	Unable to get compatible Packaged Item based on equipment group compartment: 5 SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR [batch - 2]
+2024-10-11 10:04:07.087	1165830	Debug	Conopt	Container optimization with 1 package lines and 1 container groups. [batch - 2]
+2024-10-11 10:04:07.099	1165830	Debug	Conopt	Use Container Opt Alg: 0-PACKING_GREEDY_SOLVER;  [batch - 2]
+2024-10-11 10:04:07.099	1165830	Debug	PackingSolver	Non-Load Config Algorithm will be used for Packing. [batch - 2]
+2024-10-11 10:04:07.099	1165830	Debug	PackingSolver	Non-Load Config Algorithm will be used for Packing. [batch - 2]
+2024-10-11 10:04:07.101	1165830	Debug	PackingSolver	Mixing Rule in Resource is null  [batch - 2]
+2024-10-11 10:04:07.101	1165830	Debug	PackingSolver	Container Optimization Bundling is turned off. [batch - 2]
+2024-10-11 10:04:07.113	1165830	Debug	PackingSolver	Invoking Packing Solver Logic for split option: SPLIT_OPTION_SPLIT_IF_NEEDED.
+Packing Solver: Heuristic Solver
+Packing Method: GREEDY PACKING METHOD
+Number of Items: 1, Number of Resources: 1
+Number of leaf items: 1
+Parameters: Metric: WEIGHT_METRIC, Objective: MINIMIZE_CONTAINER, Consider ERU = false, Rate shipment inside conopt = false, Desired Utilization Percentage = 97.0 only apply to EnumerativePacking algorithm., DP Max Recursion Depth = 99999, DP Time Out Limit (secs) = 180 [batch - 2]
+2024-10-11 10:04:07.113	1165830	Debug	PackingSolver	No Resource Groups found ... solving without resources or costs  [batch - 2]
+2024-10-11 10:04:07.124	1165830	Debug	PackingSolver	Scoring on : false [batch - 2]
+2024-10-11 10:04:07.124	1165830	Debug	PackingSolver	Priorities on : false [batch - 2]
+2024-10-11 10:04:07.138	1165830	Debug	PackingSolver	SORT BY WEIGHT [batch - 2]
+2024-10-11 10:04:07.150	1165830	Debug	PackingSolver	Resource SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR is not preLoaded. [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	Mixing Rule in Resource is null  [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	Start Calculating Rail Axle Weights for resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR>  [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	Input for Axle Weight Calculation... 
+ -- Truck Center Length:  <275.6 IN> 
+ -- Truck/bogie count:  <2> 
+ -- Total Axle count:  <4> 
+ Distance of Axle A from equipment origin:  <6.208333333333332 FT>  [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 1> [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 1> 
+ -- Weight: <48025.0>
+ -- Calculated/assumed CoG along length of the equipment: <3.6416666666666666>
+ -- Starting Position along length of the equipment: <0.5>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 2> [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 2> 
+ -- Weight: <0.0>
+ -- Calculated/assumed CoG along length of the equipment: <2.625>
+ -- Starting Position along length of the equipment: <7.783333333333333>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 3> [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 3> 
+ -- Weight: <0.0>
+ -- Calculated/assumed CoG along length of the equipment: <4.658333333333333>
+ -- Starting Position along length of the equipment: <13.033333333333333>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 4> [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 4> 
+ -- Weight: <0.0>
+ -- Calculated/assumed CoG along length of the equipment: <2.625>
+ -- Starting Position along length of the equipment: <22.349999999999998>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 5> [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.173	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 5> 
+ -- Weight: <0.0>
+ -- Calculated/assumed CoG along length of the equipment: <3.6416666666666666>
+ -- Starting Position along length of the equipment: <27.599999999999998>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.175	1165830	Debug	PackingSolver	Calculated Axle Weights are: 
+ -- Truck A Weight: <77346.55297532656>
+ -- Truck A Axle Weight: <38673.27648766328>
+ -- Truck B Weight: <20678.44702467344>
+ -- Truck B Axle Weight: <10339.22351233672>
+ -- Ratio of Truck Imbalne (A/B): <0.2673480100822313> [batch - 2]
+2024-10-11 10:04:07.176	1165830	Debug	PackingSolver	Container Optimization Bundling is turned off. [batch - 2]
+2024-10-11 10:04:07.176	1165830	Debug	PackingSolver	Invoking Packing Solver Logic for split option: SPLIT_OPTION_SPLIT_IF_NEEDED.
+Packing Solver: Heuristic Solver
+Packing Method: GREEDY PACKING METHOD
+Number of Items: 1, Number of Resources: 1
+Number of leaf items: 1
+Parameters: Metric: VOLUME_METRIC, Objective: MINIMIZE_CONTAINER, Consider ERU = false, Rate shipment inside conopt = false, Desired Utilization Percentage = 97.0 only apply to EnumerativePacking algorithm., DP Max Recursion Depth = 99999, DP Time Out Limit (secs) = 180 [batch - 2]
+2024-10-11 10:04:07.176	1165830	Debug	PackingSolver	No Resource Groups found ... solving without resources or costs  [batch - 2]
+2024-10-11 10:04:07.176	1165830	Debug	PackingSolver	Scoring on : false [batch - 2]
+2024-10-11 10:04:07.176	1165830	Debug	PackingSolver	Priorities on : false [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	SORT BY VOLUME [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	Resource SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR is not preLoaded. [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	Mixing Rule in Resource is null  [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	Start Calculating Rail Axle Weights for resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR>  [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	Input for Axle Weight Calculation... 
+ -- Truck Center Length:  <275.6 IN> 
+ -- Truck/bogie count:  <2> 
+ -- Total Axle count:  <4> 
+ Distance of Axle A from equipment origin:  <6.208333333333332 FT>  [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 1> [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 1> 
+ -- Weight: <48025.0>
+ -- Calculated/assumed CoG along length of the equipment: <3.6416666666666666>
+ -- Starting Position along length of the equipment: <0.5>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 2> [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 2> 
+ -- Weight: <0.0>
+ -- Calculated/assumed CoG along length of the equipment: <2.625>
+ -- Starting Position along length of the equipment: <7.783333333333333>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 3> [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 3> 
+ -- Weight: <0.0>
+ -- Calculated/assumed CoG along length of the equipment: <4.658333333333333>
+ -- Starting Position along length of the equipment: <13.033333333333333>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 4> [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 4> 
+ -- Weight: <0.0>
+ -- Calculated/assumed CoG along length of the equipment: <2.625>
+ -- Starting Position along length of the equipment: <22.349999999999998>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 5> [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 5> 
+ -- Weight: <0.0>
+ -- Calculated/assumed CoG along length of the equipment: <3.6416666666666666>
+ -- Starting Position along length of the equipment: <27.599999999999998>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.177	1165830	Debug	PackingSolver	Calculated Axle Weights are: 
+ -- Truck A Weight: <77346.55297532656>
+ -- Truck A Axle Weight: <38673.27648766328>
+ -- Truck B Weight: <20678.44702467344>
+ -- Truck B Axle Weight: <10339.22351233672>
+ -- Ratio of Truck Imbalne (A/B): <0.2673480100822313> [batch - 2]
+2024-10-11 10:04:07.178	1165830	Debug	PackingSolver	Container Optimization Bundling is turned off. [batch - 2]
+2024-10-11 10:04:07.178	1165830	Debug	PackingSolver	Invoking Packing Solver Logic for split option: SPLIT_OPTION_SPLIT_IF_NEEDED.
+Packing Solver: Heuristic Solver
+Packing Method: GREEDY PACKING METHOD
+Number of Items: 1, Number of Resources: 1
+Number of leaf items: 1
+Parameters: Metric: WEIGHT_METRIC, Objective: MAXIMIZE_UTILIZATION, Consider ERU = false, Rate shipment inside conopt = false, Desired Utilization Percentage = 97.0 only apply to EnumerativePacking algorithm., DP Max Recursion Depth = 99999, DP Time Out Limit (secs) = 180 [batch - 2]
+2024-10-11 10:04:07.178	1165830	Debug	PackingSolver	No Resource Groups found ... solving without resources or costs  [batch - 2]
+2024-10-11 10:04:07.178	1165830	Debug	PackingSolver	Scoring on : false [batch - 2]
+2024-10-11 10:04:07.178	1165830	Debug	PackingSolver	Priorities on : false [batch - 2]
+2024-10-11 10:04:07.178	1165830	Debug	PackingSolver	SORT BY WEIGHT [batch - 2]
+2024-10-11 10:04:07.178	1165830	Debug	PackingSolver	Resource SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR is not preLoaded. [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	Mixing Rule in Resource is null  [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	Start Calculating Rail Axle Weights for resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR>  [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	Input for Axle Weight Calculation... 
+ -- Truck Center Length:  <275.6 IN> 
+ -- Truck/bogie count:  <2> 
+ -- Total Axle count:  <4> 
+ Distance of Axle A from equipment origin:  <6.208333333333332 FT>  [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 1> [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 1> 
+ -- Weight: <48025.0>
+ -- Calculated/assumed CoG along length of the equipment: <3.6416666666666666>
+ -- Starting Position along length of the equipment: <0.5>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 2> [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 2> 
+ -- Weight: <0.0>
+ -- Calculated/assumed CoG along length of the equipment: <2.625>
+ -- Starting Position along length of the equipment: <7.783333333333333>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 3> [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 3> 
+ -- Weight: <0.0>
+ -- Calculated/assumed CoG along length of the equipment: <4.658333333333333>
+ -- Starting Position along length of the equipment: <13.033333333333333>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 4> [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 4> 
+ -- Weight: <0.0>
+ -- Calculated/assumed CoG along length of the equipment: <2.625>
+ -- Starting Position along length of the equipment: <22.349999999999998>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 5> [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 5> 
+ -- Weight: <0.0>
+ -- Calculated/assumed CoG along length of the equipment: <3.6416666666666666>
+ -- Starting Position along length of the equipment: <27.599999999999998>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.179	1165830	Debug	PackingSolver	Calculated Axle Weights are: 
+ -- Truck A Weight: <77346.55297532656>
+ -- Truck A Axle Weight: <38673.27648766328>
+ -- Truck B Weight: <20678.44702467344>
+ -- Truck B Axle Weight: <10339.22351233672>
+ -- Ratio of Truck Imbalne (A/B): <0.2673480100822313> [batch - 2]
+2024-10-11 10:04:07.180	1165830	Debug	PackingSolver	Container Optimization Bundling is turned off. [batch - 2]
+2024-10-11 10:04:07.180	1165830	Debug	PackingSolver	Invoking Packing Solver Logic for split option: SPLIT_OPTION_SPLIT_IF_NEEDED.
+Packing Solver: Heuristic Solver
+Packing Method: GREEDY PACKING METHOD
+Number of Items: 1, Number of Resources: 1
+Number of leaf items: 1
+Parameters: Metric: VOLUME_METRIC, Objective: MAXIMIZE_UTILIZATION, Consider ERU = false, Rate shipment inside conopt = false, Desired Utilization Percentage = 97.0 only apply to EnumerativePacking algorithm., DP Max Recursion Depth = 99999, DP Time Out Limit (secs) = 180 [batch - 2]
+2024-10-11 10:04:07.180	1165830	Debug	PackingSolver	No Resource Groups found ... solving without resources or costs  [batch - 2]
+2024-10-11 10:04:07.180	1165830	Debug	PackingSolver	Scoring on : false [batch - 2]
+2024-10-11 10:04:07.180	1165830	Debug	PackingSolver	Priorities on : false [batch - 2]
+2024-10-11 10:04:07.180	1165830	Debug	PackingSolver	SORT BY VOLUME [batch - 2]
+2024-10-11 10:04:07.180	1165830	Debug	PackingSolver	Resource SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR is not preLoaded. [batch - 2]
+2024-10-11 10:04:07.180	1165830	Debug	PackingSolver	Mixing Rule in Resource is null  [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	Start Calculating Rail Axle Weights for resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR>  [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	Input for Axle Weight Calculation... 
+ -- Truck Center Length:  <275.6 IN> 
+ -- Truck/bogie count:  <2> 
+ -- Total Axle count:  <4> 
+ Distance of Axle A from equipment origin:  <6.208333333333332 FT>  [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 1> [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 1> 
+ -- Weight: <48025.0>
+ -- Calculated/assumed CoG along length of the equipment: <3.6416666666666666>
+ -- Starting Position along length of the equipment: <0.5>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 2> [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 2> 
+ -- Weight: <0.0>
+ -- Calculated/assumed CoG along length of the equipment: <2.625>
+ -- Starting Position along length of the equipment: <7.783333333333333>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 3> [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 3> 
+ -- Weight: <0.0>
+ -- Calculated/assumed CoG along length of the equipment: <4.658333333333333>
+ -- Starting Position along length of the equipment: <13.033333333333333>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 4> [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 4> 
+ -- Weight: <0.0>
+ -- Calculated/assumed CoG along length of the equipment: <2.625>
+ -- Starting Position along length of the equipment: <22.349999999999998>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	No CoG on the child resource:  <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 5> [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	We assume the total packed weight concentrated at equipmnet/compartment center. [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	For the Packed Resource <SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 5> 
+ -- Weight: <0.0>
+ -- Calculated/assumed CoG along length of the equipment: <3.6416666666666666>
+ -- Starting Position along length of the equipment: <27.599999999999998>
+ -- Weights Moment: <99251.66666666661> [batch - 2]
+2024-10-11 10:04:07.181	1165830	Debug	PackingSolver	Calculated Axle Weights are: 
+ -- Truck A Weight: <77346.55297532656>
+ -- Truck A Axle Weight: <38673.27648766328>
+ -- Truck B Weight: <20678.44702467344>
+ -- Truck B Axle Weight: <10339.22351233672>
+ -- Ratio of Truck Imbalne (A/B): <0.2673480100822313> [batch - 2]
+2024-10-11 10:04:07.183	1165830	Debug	PackingSolver	Number of Resource Allocation Solutions Returned: 4 [batch - 2]
+2024-10-11 10:04:07.184	1165830	Debug	PackingSolver	Solver = QUICK PACKING ALGORITHM
+Metric = WEIGHT_METRIC
+Object = MINIMIZE_CONTAINER
+Total Cost = 1.0
+Total Objective Value = 1.0
+Detailed List of packed resources
+Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR, Weight Utilization: 27%, Volume Utilization: 3.7%, ERU Utilization: 0.0%, Metrics : WEIGHT: 1.8e+05, VOLUME: 3.0e+03, ERU: 0.0, ERU_PARENT: 0.0 refUnits: null, ERU null
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 1, Weight Utilization: 87%, Volume Utilization: 18%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+		Item ID: SKULLY.86793440040-001, Count = 1.0, Value = 110.46068817614922, Metrics : WEIGHT: 4.8e+04, VOLUME: 1.1e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: null, ERU null, ep = 01/21/1970 00:10:41, lp = 01/21/1970 00:53:53, ed = 01/21/1970 00:10:41, ld = 01/21/1970 00:53:53
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 2, Weight Utilization: 0.0%, Volume Utilization: 0.0%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 3, Weight Utilization: 0.0%, Volume Utilization: 0.0%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 4, Weight Utilization: 0.0%, Volume Utilization: 0.0%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 5, Weight Utilization: 0.0%, Volume Utilization: 0.0%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+, mixingRule: null [batch - 2]
+2024-10-11 10:04:07.184	1165830	Debug	PackingSolver	Solver = QUICK PACKING ALGORITHM
+Metric = VOLUME_METRIC
+Object = MINIMIZE_CONTAINER
+Total Cost = 1.0
+Total Objective Value = 1.0
+Detailed List of packed resources
+Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR, Weight Utilization: 27%, Volume Utilization: 3.7%, ERU Utilization: 0.0%, Metrics : WEIGHT: 1.8e+05, VOLUME: 3.0e+03, ERU: 0.0, ERU_PARENT: 0.0 refUnits: null, ERU null
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 1, Weight Utilization: 87%, Volume Utilization: 18%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+		Item ID: SKULLY.86793440040-001, Count = 1.0, Value = 110.46068817614922, Metrics : WEIGHT: 4.8e+04, VOLUME: 1.1e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: null, ERU null, ep = 01/21/1970 00:10:41, lp = 01/21/1970 00:53:53, ed = 01/21/1970 00:10:41, ld = 01/21/1970 00:53:53
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 2, Weight Utilization: 0.0%, Volume Utilization: 0.0%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 3, Weight Utilization: 0.0%, Volume Utilization: 0.0%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 4, Weight Utilization: 0.0%, Volume Utilization: 0.0%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 5, Weight Utilization: 0.0%, Volume Utilization: 0.0%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+, mixingRule: null [batch - 2]
+2024-10-11 10:04:07.184	1165830	Debug	PackingSolver	Solver = QUICK PACKING ALGORITHM
+Metric = WEIGHT_METRIC
+Object = MAXIMIZE_UTILIZATION
+Total Cost = 1.0
+Total Objective Value = -0.2668055555555556
+Detailed List of packed resources
+Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR, Weight Utilization: 27%, Volume Utilization: 3.7%, ERU Utilization: 0.0%, Metrics : WEIGHT: 1.8e+05, VOLUME: 3.0e+03, ERU: 0.0, ERU_PARENT: 0.0 refUnits: null, ERU null
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 1, Weight Utilization: 87%, Volume Utilization: 18%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+		Item ID: SKULLY.86793440040-001, Count = 1.0, Value = 110.46068817614922, Metrics : WEIGHT: 4.8e+04, VOLUME: 1.1e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: null, ERU null, ep = 01/21/1970 00:10:41, lp = 01/21/1970 00:53:53, ed = 01/21/1970 00:10:41, ld = 01/21/1970 00:53:53
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 2, Weight Utilization: 0.0%, Volume Utilization: 0.0%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 3, Weight Utilization: 0.0%, Volume Utilization: 0.0%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 4, Weight Utilization: 0.0%, Volume Utilization: 0.0%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 5, Weight Utilization: 0.0%, Volume Utilization: 0.0%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+, mixingRule: null [batch - 2]
+2024-10-11 10:04:07.184	1165830	Debug	PackingSolver	Solver = QUICK PACKING ALGORITHM
+Metric = VOLUME_METRIC
+Object = MAXIMIZE_UTILIZATION
+Total Cost = 1.0
+Total Objective Value = -0.03682022939204974
+Detailed List of packed resources
+Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR, Weight Utilization: 27%, Volume Utilization: 3.7%, ERU Utilization: 0.0%, Metrics : WEIGHT: 1.8e+05, VOLUME: 3.0e+03, ERU: 0.0, ERU_PARENT: 0.0 refUnits: null, ERU null
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 1, Weight Utilization: 87%, Volume Utilization: 18%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+		Item ID: SKULLY.86793440040-001, Count = 1.0, Value = 110.46068817614922, Metrics : WEIGHT: 4.8e+04, VOLUME: 1.1e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: null, ERU null, ep = 01/21/1970 00:10:41, lp = 01/21/1970 00:53:53, ed = 01/21/1970 00:10:41, ld = 01/21/1970 00:53:53
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 2, Weight Utilization: 0.0%, Volume Utilization: 0.0%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 3, Weight Utilization: 0.0%, Volume Utilization: 0.0%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 4, Weight Utilization: 0.0%, Volume Utilization: 0.0%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+	Resource: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CARCompartment: 5, Weight Utilization: 0.0%, Volume Utilization: 0.0%, ERU Utilization: 0.0%, Metrics : WEIGHT: 5.5e+04, VOLUME: 6.0e+02, ERU: 0.0, ERU_PARENT: 0.0 refUnits: {SKULLY.STEEL COIL=1.0}, ERU {SKULLY.STEEL COIL=1.0}
+, mixingRule: null [batch - 2]
+2024-10-11 10:04:07.189	1165830	Debug	Conopt	Number of CONSolutions Returned 4 [batch - 2]
+2024-10-11 10:04:07.189	1165830	Debug	Conopt	 # of containers: 1    effectiveUtilization: 0.15181289247380264    weightUtilization: 0.2668055555555555    volumeUtilization: 0.0368202293920497641th container: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR with capacity: Units: 0.0, Weight: 180000.0, Volume: 3000.0, Dimensional Weight: 0.0, Reference Units: null   weight utilization: 0.2668055555555555   volume utilization: 0.036820229392049764 [batch - 2]
+2024-10-11 10:04:07.189	1165830	Debug	Conopt	 # of containers: 1    effectiveUtilization: 0.15181289247380264    weightUtilization: 0.2668055555555555    volumeUtilization: 0.0368202293920497641th container: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR with capacity: Units: 0.0, Weight: 180000.0, Volume: 3000.0, Dimensional Weight: 0.0, Reference Units: null   weight utilization: 0.2668055555555555   volume utilization: 0.036820229392049764 [batch - 2]
+2024-10-11 10:04:07.189	1165830	Debug	Conopt	 # of containers: 1    effectiveUtilization: 0.15181289247380264    weightUtilization: 0.2668055555555555    volumeUtilization: 0.0368202293920497641th container: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR with capacity: Units: 0.0, Weight: 180000.0, Volume: 3000.0, Dimensional Weight: 0.0, Reference Units: null   weight utilization: 0.2668055555555555   volume utilization: 0.036820229392049764 [batch - 2]
+2024-10-11 10:04:07.189	1165830	Debug	Conopt	 # of containers: 1    effectiveUtilization: 0.15181289247380264    weightUtilization: 0.2668055555555555    volumeUtilization: 0.0368202293920497641th container: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR with capacity: Units: 0.0, Weight: 180000.0, Volume: 3000.0, Dimensional Weight: 0.0, Reference Units: null   weight utilization: 0.2668055555555555   volume utilization: 0.036820229392049764 [batch - 2]
+2024-10-11 10:04:07.189	1165830	Debug	Conopt	Returned from container optimization with 4 of solutions. [batch - 2]
+2024-10-11 10:04:07.195	1165830	Debug	Planning	End create equipment options on leg: SKULLY.4026312 [batch - 2]
+2024-10-11 10:04:07.195	1165830	Debug	Planning	Creating leg options ... [batch - 2]
+2024-10-11 10:04:07.195	1165830	Debug	Planning	Creating leg options for leg SKULLY.4026312 with 1 equipment options. [batch - 2]
+2024-10-11 10:04:07.195	1165830	Debug	Planning	No source VIA locations on leg SKULLY.4026312 [batch - 2]
+2024-10-11 10:04:07.195	1165830	Debug	Planning	No dest VIA locations on leg SKULLY.4026312 [batch - 2]
+2024-10-11 10:04:07.199	1165830	Debug	Planning	Creating Leg Option with Equipment Option: 
+Transport mode: null
+Number of tSEquipments: 1
+--> SEquipmentGid: null, EquipmentGroup: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR(726610989)   contains 1 TSShipUnits. unit: 1 238176049 created from ShipUnit: SKULLY.86793440040-001 ..range = 1-1
+Mode: null
+PrevEquipmentOption: 
+NextEquipmentOptions:  and Arb option: NO_ARB  sourceViaLocation: null, destViaLocation null [batch - 2]
+2024-10-11 10:04:07.200	1165830	Debug	Planning	1 leg options are created ... [batch - 2]
+2024-10-11 10:04:07.200	1165830	Debug	Planning	Creating TShipments on the leg ... [batch - 2]
+2024-10-11 10:04:07.200	1165830	Debug	Planning	Flag Create_Single_Shipment on leg: SKULLY.4026312 is false [batch - 2]
+2024-10-11 10:04:07.200	1165830	Debug	Planning	1 TSEquipments on leg option 24665432. [batch - 2]
+2024-10-11 10:04:07.200	1165830	Debug	Planning	   1th TSEquipment: SEquipmentGid: null, EquipmentGroup: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR(726610989)   contains 1 TSShipUnits. unit: 1 238176049 created from ShipUnit: SKULLY.86793440040-001 ..range = 1-1  [batch - 2]
+2024-10-11 10:04:07.200	1165830	Debug	Planning	 addTSEquipments: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR: 100 with sEquipmentIndex: null [batch - 2]
+2024-10-11 10:04:07.200	1165830	Debug	Planning	Creating new TShipment 140934244 for TSEquipment SEquipmentGid: null, EquipmentGroup: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR(726610989)   contains 1 TSShipUnits. unit: 1 238176049 created from ShipUnit: SKULLY.86793440040-001 ..range = 1-1. [batch - 2]
+2024-10-11 10:04:07.234	1165830	Debug	Planning	THU Capacity Map loaded: {} [batch - 2]
+2024-10-11 10:04:07.240	1165830	Debug	Planning	THU PRU Capacity Map loaded: {} [batch - 2]
+2024-10-11 10:04:07.250	1165830	Debug	PlanningDetails	Created TShipmentStop:      Shipment Stop: 
+     shipmentGid = null
+     stopNum = 1
+     locationGid = SKULLY.CINCINNATI _OH STEEL MILL
+     actual arrivalTime = null
+     actual departureTime = null
+     planned arrivalTime = null
+     planned departureTime = 2024-10-11 10:03:39 UTC
+     estimated arrivalTime = null
+     estimated departureTime = 2024-10-11 10:03:39 UTC
+     waitTime = 0.0 S
+     activityTime = 0.0 S
+     restTime = 0.0 S
+     driveTime = 0.0 S
+     locationRoleGid = SHIPFROM/SHIPTO
+     earlyArrivalTimeWindow = 2024-10-11 10:03:39 UTC
+     lateArrivalTimeWindow = 2024-11-10 10:03:39 UTC
+     distFromPrevStop = 0.0 MI
+     isFixedArrivalTime = false
+     isFixedDepartureTime = false
+     pickupAppointment = null
+     deliveryAppointment= null
+ [batch - 2]
+2024-10-11 10:04:07.250	1165830	Debug	PlanningDetails	Created TShipmentStop:      Shipment Stop: 
+     shipmentGid = null
+     stopNum = 2
+     locationGid = SKULLY.LOUISVILLE_KY ASSEMBLY PLANT
+     actual arrivalTime = null
+     actual departureTime = null
+     planned arrivalTime = null
+     planned departureTime = null
+     estimated arrivalTime = null
+     estimated departureTime = null
+     waitTime = 0.0 S
+     activityTime = 0.0 S
+     restTime = 0.0 S
+     driveTime = 0.0 S
+     locationRoleGid = SHIPFROM/SHIPTO
+     earlyArrivalTimeWindow = 2024-10-11 10:03:39 UTC
+     lateArrivalTimeWindow = 2024-11-10 10:03:39 UTC
+     distFromPrevStop = 0.0 MI
+     isFixedArrivalTime = false
+     isFixedDepartureTime = false
+     pickupAppointment = null
+     deliveryAppointment= null
+ [batch - 2]
+2024-10-11 10:04:07.250	1165830	Debug	Planning	Begin insertViaPoints... [batch - 2]
+2024-10-11 10:04:07.251	1165830	Debug	Planning	leg: SKULLY.4026312 [batch - 2]
+2024-10-11 10:04:07.251	1165830	Debug	Planning	No Via Points, returning [batch - 2]
+2024-10-11 10:04:07.251	1165830	Debug	Planning	SQL Find LegInterimPoints by LegPK: select distinct lip.leg_gid, lip.seq_no from leg_interim_point lip where lip.leg_gid = ? order by lip.seq_no. [batch - 2]
+2024-10-11 10:04:07.257	1165830	Debug	PlanningDetails	Make depot stops for shipment: 140934244 (SKULLY.CINCINNATI _OH STEEL MILL -> SKULLY.LOUISVILLE_KY ASSEMBLY PLANT) [batch - 2]
+2024-10-11 10:04:07.257	1165830	Debug	PlanningDetails	After making depot stops, the stops on shipment are:  [batch - 2]
+2024-10-11 10:04:07.257	1165830	Debug	PlanningDetails	Stop SKULLY.CINCINNATI _OH STEEL MILL, isDepot: false [batch - 2]
+2024-10-11 10:04:07.257	1165830	Debug	PlanningDetails	Stop SKULLY.LOUISVILLE_KY ASSEMBLY PLANT, isDepot: false [batch - 2]
+2024-10-11 10:04:07.257	1165830	Debug	Planning	Calculating and set cost for the leg ... [batch - 2]
+2024-10-11 10:04:07.257	1165830	Debug	PlanningDetails	Expand leg option on costs for: 
+ Leg Option: 24665432
+    expectedCost:          0.0 USD
+ --> SEquipmentGid: null, EquipmentGroup: SKULLY.EUROCOIL 5 TROUGH COIL STEEL CAR(726610989)   contains 1 TSShipUnits. unit: 1 238176049 created from ShipUnit: SKULLY.86793440040-001 ..range = 1-1
+    tSEquipments:       
+    viaType:               0
+   port of loading:    null
+   port of discharge:  null
+    transportModeGid:      null
+    servprovGid:           null
+    rateOfferingGid:       null
+    rateServiceGid:        null
+    estimatedStartTime:    2024-10-11 10:03:39 UTC
+    estiamtedEndTime:      null
+    calculateSeriviceTime: true
+    calcuateRate:          true
+    isFeasible:            true
+    sourceOpLocPK:         null
+    destOpLocPK:           null
+ equipmentOption: 2016486923
+ nextLegOptions:  [batch - 2]
+2024-10-11 10:04:07.257	1165830	Debug	Planning	There are 1 TShipments on leg option 24665432.  [batch - 2]
+2024-10-11 10:04:07.257	1165830	Debug	Planning	     1th TShipment 140934244 [batch - 2]
+2024-10-11 10:04:07.257	1165830	Debug	Planning	Entering LevelOfServicesHelper.createTShipmentForLevelOfServicePairs(). [batch - 2]
+2024-10-11 10:04:07.257	1165830	Debug	Planning	Planning Parameter value of USE LEVEL OF SERVICE FOR ARBITRARIES is false [batch - 2]
+2024-10-11 10:04:07.257	1165830	Debug	Planning	Skipping setting level of service on TShipment (related to slow and fast arb feature). [batch - 2]
+2024-10-11 10:04:07.257	1165830	Debug	Planning	Exiting LevelOfServicesHelper.createTShipmentForLevelOfServicePairs(). [batch - 2]
+2024-10-11 10:04:07.268	1165830	Debug	Planning	RateFinder.findCommonFeasibleRateEngineResult(): Entering find common feasible rate engine result for 1 tShipments. [batch - 2]
+2024-10-11 10:04:07.268	1165830	Debug	Planning	RateFinder.findCommonFeasibleRateEngineResult(): Calculating cost for TShipment 1. [batch - 2]
+2024-10-11 10:04:07.280	1165830	Debug	PlanningDetails	TLocation.getSpecialServiceCodes(): Gathering location special services. [batch - 2]
+2024-10-11 10:04:07.286	1165830	Debug	PlanningDetails	TLocation.getSpecialServiceCodes(): list of location special service codes: empty! [batch - 2]
+2024-10-11 10:04:07.286	1165830	Debug	PlanningDetails	TLocation.getSpecialServiceCodes(): Gathering location special services. [batch - 2]
+2024-10-11 10:04:07.292	1165830	Debug	PlanningDetails	TLocation.getSpecialServiceCodes(): list of location special service codes: empty! [batch - 2]
+2024-10-11 10:04:07.317	1165830	Debug	PlanningDetails	ComputeLocationActivityTime Start [batch - 2]
+2024-10-11 10:04:07.318	1165830	Debug	PlanningDetails	Activity Time for shipmentSpecialService LOAD is 0.0 S [batch - 2]
+2024-10-11 10:04:07.324	1165830	Debug	PlanningDetails	ComputeLocationActivityTime Start [batch - 2]
+2024-10-11 10:04:07.324	1165830	Debug	PlanningDetails	Activity Time for shipmentSpecialService UNLOAD is 0.0 S [batch - 2]
+2024-10-11 10:04:07.324	1165830	Debug	Planning	RateGeoFinderSession.findValidRateGeos(): Begin Finding Valid Rate Geos ... [batch - 2]
+2024-10-11 10:04:07.324	1165830	Debug	Planning	RateGeoFinderSession.findValidRateGeos(): ShipmentGid (if any) = <null> [batch - 2]
+2024-10-11 10:04:07.324	1165830	Debug	Planning	RateGeoFinderSession.findValidRateGeos(): rateOfferingPKs = <null> [batch - 2]
+2024-10-11 10:04:07.324	1165830	Debug	Planning	RateGeoFinderSession.findValidRateGeos(): rateOfferingRuleSetGid = <null> [batch - 2]
+2024-10-11 10:04:07.324	1165830	Debug	Planning	RateGeoFinderSession.findValidRateGeos(): rateGeoRuleSetTGid = <null> [batch - 2]
+2024-10-11 10:04:07.324	1165830	Debug	Planning	RateGeoFinderSession.findValidRateGeos(): usePreferredRates = <true> [batch - 2]
+2024-10-11 10:04:07.324	1165830	Debug	Planning	RateGeoFinderSession.findValidRateGeos(): usePreferredRatesOnly = <false> [batch - 2]
+2024-10-11 10:04:07.324	1165830	Debug	Planning	RateGeoFinderSession.findValidRateGeos(): checkCmRating = <false> [batch - 2]
+2024-10-11 10:04:07.324	1165830	Debug	Planning	RateGeoFinderSession.findValidRateGeos(): useRouteExecutionRates = <false> [batch - 2]
+2024-10-11 10:04:07.324	1165830	Debug	PlanningDetails	RateGeoFinderSession.findValidRateGeos(): using shipment.waybillDate as start time= <null> [batch - 2]
+2024-10-11 10:04:07.324	1165830	Debug	PlanningDetails	RateGeoFinderSession.findValidRateGeos(): waybillDate is null, using shipment.startTime as start time = <null> [batch - 2]
+2024-10-11 10:04:07.324	1165830	Debug	PlanningDetails	RateGeoFinderSession.findValidRateGeos(): startTime is null, using shipment.earliestPossibleStartTime as start time = <2024-10-11 10:03:39 UTC> [batch - 2]
+2024-10-11 10:04:07.324	1165830	Debug	PlanningDetails	RateGeoFinderSession.findValidRateGeos(): Converted startTime to source TZ = <2024-10-11 06:03:39 America/New_York> [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	Planning	RateGeoFinderSession.findCompositeRateGeoPKs(): Use Preferred Rates : <true> [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	Planning	RateGeoFinderSession.findCompositeRateGeoPKs(): Use Preferred Rates Only : <false> [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findCompositeRateGeoPKsByAddress(): Retrieved cached result for SKULLY.CINCINNATI _OH STEEL MILL|SKULLY.LOUISVILLE_KY ASSEMBLY PLANT|SKULLYB [CompositeRateGeoPK: key = <RAIL|11683343|505502779|1104566400000|1924934400000>, hashCode = <0>, rgSeq = <505502779>, rgGid = <SKULLY.CSXT_35990_286550_STEEL COIL>, roSeq = <11683343>, roGid = <SKULLY.CSXT STEEL>, rank = <8>, transportModeGid = <RAIL>, effDate = <2005-01-01 08:00:00 UTC>, expDate = <2030-12-31 08:00:00 UTC>, servprovGid = <null>, CompositeRateGeoPK: key = <TL|11683345|505502767|1104566400000|1924934400000>, hashCode = <0>, rgSeq = <505502767>, rgGid = <SKULLY.LOUISVILLE AUTO  PARTS>, roSeq = <11683345>, roGid = <SKULLY.QUAD CITIES TRANSPORTATION>, rank = <12>, transportModeGid = <TL>, effDate = <2005-01-01 08:00:00 UTC>, expDate = <2030-12-31 08:00:00 UTC>, servprovGid = <null>] [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findCompositeRateGeoPKsByAddress(): Normalized startTime = <2024-10-11 06:03:39 UTC> [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findCompositeRateGeoPKsByAddress(): Beginning date filter process. [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findCompositeRateGeoPKsByAddress(): Testing  [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findCompositeRateGeoPKsByAddress(): effDate = <2005-01-01 UTC>, expDate = <2030-12-31 UTC> <SKULLY.CSXT STEEL|SKULLY.CSXT_35990_286550_STEEL COIL> [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findCompositeRateGeoPKsByAddress(): Succeeded [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findCompositeRateGeoPKsByAddress(): Testing  [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findCompositeRateGeoPKsByAddress(): effDate = <2005-01-01 UTC>, expDate = <2030-12-31 UTC> <SKULLY.QUAD CITIES TRANSPORTATION|SKULLY.LOUISVILLE AUTO  PARTS> [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findCompositeRateGeoPKsByAddress(): Succeeded [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findCompositeRateGeoPKsByAddress(): Returning date filtered list: [RateGeoFinderResult: tRateGeo = <null>, composite = <CompositeRateGeoPK: key = <RAIL|11683343|505502779|1104566400000|1924934400000>, hashCode = <0>, rgSeq = <505502779>, rgGid = <SKULLY.CSXT_35990_286550_STEEL COIL>, roSeq = <11683343>, roGid = <SKULLY.CSXT STEEL>, rank = <8>, transportModeGid = <RAIL>, effDate = <2005-01-01 08:00:00 UTC>, expDate = <2030-12-31 08:00:00 UTC>, servprovGid = <null>>, isPreferred = <false>, RateGeoFinderResult: tRateGeo = <null>, composite = <CompositeRateGeoPK: key = <TL|11683345|505502767|1104566400000|1924934400000>, hashCode = <0>, rgSeq = <505502767>, rgGid = <SKULLY.LOUISVILLE AUTO  PARTS>, roSeq = <11683345>, roGid = <SKULLY.QUAD CITIES TRANSPORTATION>, rank = <12>, transportModeGid = <TL>, effDate = <2005-01-01 08:00:00 UTC>, expDate = <2030-12-31 08:00:00 UTC>, servprovGid = <null>>, isPreferred = <false>] [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	Planning	RateGeoFinderSession.findCompositeRateGeoPKs(): Begin looking for preferred rates... [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findPreferredRatesByAddress(): Converted startTime to source TZ = <2024-10-11 06:03:39 America/New_York> [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	Planning	RateGeoFinderSession.findCompositeRateGeoPKs(): No preferred rates are found. [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	Planning	RateGeoFinderSession.findCompositeRateGeoPKs(): End looking for preferred rates. [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findTRateGeosByAddresses(): Check the validity of rate offerings found by lane or zone) [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findTRateGeosByAddresses(): RateGeoFinderSession.findTRateGeosByAddress(): rateOfferingGidSet = <[11683343, 11683345]> [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findTRateGeosByAddress(): Loading TRateOffering <11,683,343> [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findTRateGeosByAddress(): Adding to tRateOfferingList. [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findTRateGeosByAddress(): Loading TRateOffering <11,683,345> [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.findTRateGeosByAddress(): Adding to tRateOfferingList. [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.getRuleValidTRateOfferings(): Invoked getRuleValidTRateOfferings.  ruleSetGid = <null> [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	PlanningDetails	RateGeoFinderSession.getRuleValidTRateOfferings(): ruleSetGid was null. gid retrieved from property <roset1> [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	Planning	********************************************************************* [batch - 2]
+2024-10-11 10:04:07.325	1165830	Debug	Planning	Rule Manager begin evaluating 2  entities [batch - 2]
+2024-10-11 10:04:07.350	1165830	Debug	PlanningDetails	Starting rule: romRule for SKULLY.CSXT STEEL [batch - 2]
+2024-10-11 10:04:07.350	1165830	Debug	PlanningDetails	Ending rule: romRule for SKULLY.CSXT STEEL (passed) [batch - 2]
+2024-10-11 10:04:07.350	1165830	Debug	PlanningDetails	Starting rule: rowRule for SKULLY.CSXT STEEL [batch - 2]
+2024-10-11 10:04:07.350	1165830	Debug	PlanningDetails	Ending rule: rowRule for SKULLY.CSXT STEEL (passed) [batch - 2]
+2024-10-11 10:04:07.350	1165830	Debug	PlanningDetails	Starting rule: rospRule for SKULLY.CSXT STEEL [batch - 2]
+2024-10-11 10:04:07.491	1165830	Debug	PlanningDetails	Ending rule: rospRule for SKULLY.CSXT STEEL (passed) [batch - 2]
+2024-10-11 10:04:07.491	1165830	Debug	PlanningDetails	Starting rule: rovRule for SKULLY.CSXT STEEL [batch - 2]
+2024-10-11 10:04:07.491	1165830	Debug	PlanningDetails	Ending rule: rovRule for SKULLY.CSXT STEEL (passed) [batch - 2]
+2024-10-11 10:04:07.491	1165830	Debug	PlanningDetails	Starting rule: rodRule for SKULLY.CSXT STEEL [batch - 2]
+2024-10-11 10:04:07.491	1165830	Debug	PlanningDetails	Ending rule: rodRule for SKULLY.CSXT STEEL (passed) [batch - 2]
+2024-10-11 10:04:07.491	1165830	Debug	PlanningDetails	Starting rule: roeqRule for SKULLY.CSXT STEEL [batch - 2]
+2024-10-11 10:04:07.491	1165830	Debug	PlanningDetails	Ending rule: roeqRule for SKULLY.CSXT STEEL (passed) [batch - 2]
+2024-10-11 10:04:07.491	1165830	Debug	PlanningDetails	Starting rule: rouomRule for SKULLY.CSXT STEEL [batch - 2]
+2024-10-11 10:04:07.491	1165830	Debug	Planning	RateOfferingUOMRule.check: No constraints specified, returning true. [batch - 2]
+2024-10-11 10:04:07.491	1165830	Debug	PlanningDetails	Ending rule: rouomRule for SKULLY.CSXT STEEL (passed) [batch - 2]
+2024-10-11 10:04:07.491	1165830	Debug	PlanningDetails	Starting rule: rorcfRule for SKULLY.CSXT STEEL [batch - 2]
+2024-10-11 10:04:07.491	1165830	Debug	PlanningDetails	Ending rule: rorcfRule for SKULLY.CSXT STEEL (passed) [batch - 2]
+2024-10-11 10:04:07.491	1165830	Debug	PlanningDetails	Starting rule: roactRule for SKULLY.CSXT STEEL [batch - 2]
+2024-10-11 10:04:07.491	1165830	Debug	PlanningDetails	Ending rule: roactRule for SKULLY.CSXT STEEL (passed) [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Starting rule: rocoRule for SKULLY.CSXT STEEL [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Ending rule: rocoRule for SKULLY.CSXT STEEL (passed) [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Starting rule: rolocRule for SKULLY.CSXT STEEL [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Ending rule: rolocRule for SKULLY.CSXT STEEL (passed) [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Starting rule: rotltRule for SKULLY.CSXT STEEL [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Ending rule: rotltRule for SKULLY.CSXT STEEL (passed) [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Starting rule: rosegRule for SKULLY.CSXT STEEL [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Ending rule: rosegRule for SKULLY.CSXT STEEL (passed) [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Starting rule: roHazRule for SKULLY.CSXT STEEL [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Ending rule: roHazRule for SKULLY.CSXT STEEL (passed) [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Starting rule: roDirectRule for SKULLY.CSXT STEEL [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Ending rule: roDirectRule for SKULLY.CSXT STEEL (passed) [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	Planning	Entity: SKULLY.CSXT STEEL  passed [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Starting rule: romRule for SKULLY.QUAD CITIES TRANSPORTATION [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	RateOfferingModeRule.check(): Mode rule failed for RO <SKULLY.QUAD CITIES TRANSPORTATION>.  Offering mode of <TL> not compatible with shipment mode list of <[Lglog.ejb.transportmode.db.TransportModePK;@1400fad3> [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Ending rule: romRule for SKULLY.QUAD CITIES TRANSPORTATION (failed) [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	Planning	Entity: SKULLY.QUAD CITIES TRANSPORTATION  failed romRule [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	Planning	Rule Manager returning with 1 entities [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	Planning	RateGeoFinderSession.getCustomerValidTRateOfferings(): Validating rate offering customer domain profiles against shipment/order domain names. [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	RateGeoFinderSession.getCustomerValidTRateOfferings(): Inspecting ro <SKULLY.CSXT STEEL> [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	RateGeoFinderSession.filterResultsByRateOfferings(): comparing rate records against set of valid rate offerings. [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	RateGeoFinderSession.filterResultsByRateOfferings(): Valid Rate Offering set: <[11683343]> [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	RateGeoFinderSession.filterResultsByRateOfferings(): Testing <RateGeoFinderResult: tRateGeo = <null>, composite = <CompositeRateGeoPK: key = <RAIL|11683343|505502779|1104566400000|1924934400000>, hashCode = <0>, rgSeq = <505502779>, rgGid = <SKULLY.CSXT_35990_286550_STEEL COIL>, roSeq = <11683343>, roGid = <SKULLY.CSXT STEEL>, rank = <8>, transportModeGid = <RAIL>, effDate = <2005-01-01 08:00:00 UTC>, expDate = <2030-12-31 08:00:00 UTC>, servprovGid = <null>>, isPreferred = <false>>, roSeq = <11,683,343> [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	RateGeoFinderSession.filterResultsByRateOfferings(): Matched rate record found. [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	RateGeoFinderSession.filterResultsByRateOfferings(): Testing <RateGeoFinderResult: tRateGeo = <null>, composite = <CompositeRateGeoPK: key = <TL|11683345|505502767|1104566400000|1924934400000>, hashCode = <0>, rgSeq = <505502767>, rgGid = <SKULLY.LOUISVILLE AUTO  PARTS>, roSeq = <11683345>, roGid = <SKULLY.QUAD CITIES TRANSPORTATION>, rank = <12>, transportModeGid = <TL>, effDate = <2005-01-01 08:00:00 UTC>, expDate = <2030-12-31 08:00:00 UTC>, servprovGid = <null>>, isPreferred = <false>>, roSeq = <11,683,345> [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	RateGeoFinderSession.filterResultsByRateOfferings(): Returning <[RateGeoFinderResult: tRateGeo = <null>, composite = <CompositeRateGeoPK: key = <RAIL|11683343|505502779|1104566400000|1924934400000>, hashCode = <0>, rgSeq = <505502779>, rgGid = <SKULLY.CSXT_35990_286550_STEEL COIL>, roSeq = <11683343>, roGid = <SKULLY.CSXT STEEL>, rank = <8>, transportModeGid = <RAIL>, effDate = <2005-01-01 08:00:00 UTC>, expDate = <2030-12-31 08:00:00 UTC>, servprovGid = <null>>, isPreferred = <false>]> [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Starting rule: rgsRule for SKULLY.CSXT_35990_286550_STEEL COIL [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Calling getStopsWithActivityType: P [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Number of stops returned by getStopsWithActivityType: 1 [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Calling getStopsWithActivityType: D [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Number of stops returned by getStopsWithActivityType: 1 [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Ending rule: rgsRule for SKULLY.CSXT_35990_286550_STEEL COIL (passed) [batch - 2]
+2024-10-11 10:04:07.492	1165830	Debug	PlanningDetails	Starting rule: rgssRule for SKULLY.CSXT_35990_286550_STEEL COIL [batch - 2]
+2024-10-11 10:04:07.493	1165830	Debug	Planning	Special service needed: LOAD [batch - 2]
+2024-10-11 10:04:07.493	1165830	Debug	Planning	Special service needed: UNLOAD [batch - 2]
+2024-10-11 10:04:07.507	1165830	Debug	Planning	Adding special service codes from RateOffering to the complete list of supported special service codes. [batch - 2]
+2024-10-11 10:04:07.507	1165830	Debug	Planning	The RateGeo and RateOffering DID support all of the needed special service codes, returning true... [batch - 2]
+2024-10-11 10:04:07.507	1165830	Debug	PlanningDetails	Ending rule: rgssRule for SKULLY.CSXT_35990_286550_STEEL COIL (passed) [batch - 2]
+2024-10-11 10:04:07.507	1165830	Debug	PlanningDetails	Starting rule: rgrsRule for SKULLY.CSXT_35990_286550_STEEL COIL [batch - 2]
+2024-10-11 10:04:07.507	1165830	Debug	Planning	Rate Geo: SKULLY.CSXT_35990_286550_STEEL COIL/Rate service: SKULLY.CSXT_LOOKUP [batch - 2]
+2024-10-11 10:04:07.507	1165830	Debug	Planning	SKULLY.4026312 leg classification = null isPrimary = false. Checking for Rate Service Constraint on Order Bundle. [batch - 2]
+2024-10-11 10:04:07.507	1165830	Debug	PlanningDetails	Ending rule: rgrsRule for SKULLY.CSXT_35990_286550_STEEL COIL (passed) [batch - 2]

@@ -1,0 +1,352 @@
+{
+     "log14556": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.604",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tCreating light TShipment for shipmentPK: BULLDOG.45586 [agentPlanning - 3]"
+     },
+     "log14557": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.607",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tComplete Saving Shipments to Database ... [batch - 2]"
+     },
+     "log14558": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.607",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "BulkPlanMilestone\tBegin Saving Trailler build Shipment Groups to Database ... [batch - 2]"
+     },
+     "log14559": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.607",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "BulkPlanMilestone\tEnd   Saving Shipment Groups to Database ... [batch - 2]"
+     },
+     "log14560": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.607",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "BulkPlanMilestone\tEnd Saving Trailler build Shipment Groups to Database ... [batch - 2]"
+     },
+     "log14561": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.607",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "WorkAssignment\tBegin post work assignment result after bulk plan... [batch - 2]"
+     },
+     "log14562": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.607",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "WorkAssignment\tWork Assignment bulk plan pk: null [batch - 2]"
+     },
+     "log14563": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.623",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedTSShipUnits: tSShipUnits[0] {} [batch - 2]"
+     },
+     "log14564": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.623",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedSShipUnitPKs: sShipUnitPKs[0] {} [batch - 2]"
+     },
+     "log14565": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.623",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedTSShipUnits: tSShipUnits[0] {} [batch - 2]"
+     },
+     "log14566": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.623",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedSShipUnitPKs: sShipUnitPKs[0] {} [batch - 2]"
+     },
+     "log14567": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.623",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedTSShipUnits: tSShipUnits[0] {} [batch - 2]"
+     },
+     "log14568": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.623",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedSShipUnitPKs: sShipUnitPKs[0] {} [batch - 2]"
+     },
+     "log14569": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.623",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedTSShipUnits: tSShipUnits[0] {} [batch - 2]"
+     },
+     "log14570": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.623",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedSShipUnitPKs: sShipUnitPKs[0] {} [batch - 2]"
+     },
+     "log14571": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.624",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedTSShipUnits: tSShipUnits[0] {} [batch - 2]"
+     },
+     "log14572": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.624",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedSShipUnitPKs: sShipUnitPKs[0] {} [batch - 2]"
+     },
+     "log14573": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.624",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedTSShipUnits: tSShipUnits[0] {} [batch - 2]"
+     },
+     "log14574": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.624",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedSShipUnitPKs: sShipUnitPKs[0] {} [batch - 2]"
+     },
+     "log14575": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.624",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedTSShipUnits: tSShipUnits[0] {} [batch - 2]"
+     },
+     "log14576": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.624",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedSShipUnitPKs: sShipUnitPKs[0] {} [batch - 2]"
+     },
+     "log14577": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.624",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedTSShipUnits: tSShipUnits[0] {} [batch - 2]"
+     },
+     "log14578": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.624",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedSShipUnitPKs: sShipUnitPKs[0] {} [batch - 2]"
+     },
+     "log14579": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.624",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedTSShipUnits: tSShipUnits[0] {} [batch - 2]"
+     },
+     "log14580": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.624",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedSShipUnitPKs: sShipUnitPKs[0] {} [batch - 2]"
+     },
+     "log14581": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.624",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedTSShipUnits: tSShipUnits[0] {} [batch - 2]"
+     },
+     "log14582": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.624",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedSShipUnitPKs: sShipUnitPKs[0] {} [batch - 2]"
+     },
+     "log14583": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.624",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedTSShipUnits: tSShipUnits[0] {} [batch - 2]"
+     },
+     "log14584": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.624",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\taddToBeRemovedSShipUnitPKs: sShipUnitPKs[0] {} [batch - 2]"
+     },
+     "log14585": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.64",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\tStart loading TShipmentStops for shipment: BULLDOG.45586 [agentPlanning - 3]"
+     },
+     "log14586": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.732",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\tShipmentTierAction.RecordShipmentForTieredRating(): rgGid = <BULLDOG.STAR LOGISTICS CAROLINA COASTAL> [agentPlanning - 3]"
+     },
+     "log14587": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.732",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "PlanningDetails\tShipmentTierAction.RecordShipmentForTieredRating(): Returning [ShipmentInfo: shipPk = <BULLDOG.45586>, success = <false>, oldCost = <null>, newCost = <null>, rgtpPk = <null>, errorGid = <cause.TierNoTimePeriodDef>] [agentPlanning - 3]"
+     },
+     "log14588": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.732",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tBusiness process pid is 12520 [agentPlanning - 3]"
+     },
+     "log14589": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.732",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tBusiness process pid is 12520 [agentPlanning - 3]"
+     },
+     "log14590": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.732",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tBusiness process pid is 12520 [agentPlanning - 3]"
+     },
+     "log14591": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.804",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "BulkPlanMilestone\tBegin Saving Continuous Move refnums to Database ... [batch - 2]"
+     },
+     "log14592": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.804",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "BulkPlanMilestone\tEnd Saving Continuous Move refnums to Database ... [batch - 2]"
+     },
+     "log14593": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.804",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "BulkPlanMilestone\tEnd   Bulk plan run #1 [batch - 2]"
+     },
+     "log14594": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.836",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tone bulk_plan_by_mode is loaded, mode: TL [batch - 2]"
+     },
+     "log14595": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.853",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tone bulk_plan_by_servprov is loaded, servprov: BULLDOG.STAR LOGISTICS [batch - 2]"
+     },
+     "log14596": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.853",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tUpdating bulk plan result:<BulkPlanResult bulk Plan Gid = BULLDOG.20241009-0002<-- Order Release Statistics -->\n Num Of Order Releases Selected = 16\n Num Of Order Releases Unassigned = 16\n Num Of Order Releases Planned = 16\n Num Of Order Releases Failed To Plan = 0\n<-- Order Movement Statistics -->\n Num Of Order Movements Selected = 0\n Num Of Order Movements Unassigned = 0\n Num Of Order Movements Planned = 16\n Num Of Order Movements Failed To Plan = 0\n Num Of Order Movements Created = 16\n<-- Shipment Statistics -->\n Num Of Shipments Built = 11\n Start Time = 2024-10-09 06:36:42 UTC\n End Time = 2024-10-09 06:37:25 GMT > ... [batch - 2]\n"
+     },
+     "log14597": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.912",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tUpdated bulk plan result:<BulkPlanResult bulk Plan Gid = BULLDOG.20241009-0002<-- Order Release Statistics -->\n Num Of Order Releases Selected = 16\n Num Of Order Releases Unassigned = 16\n Num Of Order Releases Planned = 16\n Num Of Order Releases Failed To Plan = 0\n<-- Order Movement Statistics -->\n Num Of Order Movements Selected = 0\n Num Of Order Movements Unassigned = 0\n Num Of Order Movements Planned = 16\n Num Of Order Movements Failed To Plan = 0\n Num Of Order Movements Created = 16\n<-- Shipment Statistics -->\n Num Of Shipments Built = 11\n Start Time = 2024-10-09 06:36:42 UTC\n End Time = 2024-10-09 06:37:25 GMT > has been committed. [batch - 2]\n"
+     },
+     "log14598": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.913",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tBusiness process pid is 10658 [batch - 2]"
+     },
+     "log14599": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.913",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tBusiness process pid is 10658 [batch - 2]"
+     },
+     "log14600": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.913",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tBusiness process pid is 10658 [batch - 2]"
+     },
+     "log14601": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.954",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tone bulk_plan_by_mode is loaded, mode: TL [txComplete - 1]"
+     },
+     "log14602": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.971",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tone bulk_plan_by_servprov is loaded, servprov: BULLDOG.STAR LOGISTICS [txComplete - 1]"
+     },
+     "log14603": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.981",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tOrderActionHelper.setExchangeRateInfo BULLDOG.20241009-0002 [txComplete - 1]"
+     },
+     "log14604": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.981",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tOrderActionHelper.getExchangeRateFromShipment select sh.exchange_rate_gid from shipment sh where sh.bulk_plan_gid = ? and rownum=1 ; [BULLDOG.20241009-0002] [txComplete - 1]"
+     },
+     "log14605": {
+          "date": "2024-10-09",
+          "timestamp": "06:37:25.984",
+          "project_id": "652183",
+          "status": "Debug",
+          "information": "Planning\tOrderActionHelper.getExchangeRateFromShipment : exchange rate gid returned is  DEFAULT [txComplete - 1]"
+     }
+}
